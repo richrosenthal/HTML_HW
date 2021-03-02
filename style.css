@@ -2,10 +2,40 @@
   Proprty: value;
 } */
 
-h2 {
-  color: red;
+body {
+  background-image: url(backgroundimg.jpg);
+  background-size: cover;
+}
+
+h2, p {
+  color: #AA3939;
+  text-align: center;
+  border: 5px solid #FFAAAA;
+  cursor: pointer;
 }
 
 p {
-  color: blue;
+  color: AA3939;
+}
+
+li {
+  list-style: none;
+  display: block;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.webtext {
+  color: green
+}
+
+.active {
+  color: red;
+}
+
+.fruitlist {
+  list-style: none;
+  display: block;
 }
